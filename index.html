@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupth - Secure Local Password Manager</title>
+    <meta name="description" content="Gupth is a fully local, offline password manager. No internet required, no cloud storage, complete privacy. Download now for free.">
+    <meta name="keywords" content="password manager, local password manager, offline password manager, secure passwords, privacy, encryption">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.svg" alt="Gupth Logo" class="logo-img">
+                <span class="logo-text">Gupth</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <img src="logo.svg" alt="Gupth" class="hero-logo-small">
+                    <span>100% Local & Secure</span>
+                </div>
+                <div class="hero-logo-section">
+                    <img src="logo-large.svg" alt="Gupth Logo" class="hero-logo-large">
+                    <h1 class="hero-title">
+                        Your Passwords,<br>
+                        <span class="gradient-text">Your Control</span>
+                    </h1>
+                </div>
+                <p class="hero-description">
+                    Gupth is a fully local, offline password manager that keeps your passwords secure on your device. 
+                    No cloud, no internet required, complete privacy.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-icon secure">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span>Secure</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon private">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <span>Private</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon local">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <span>Local</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#download" class="btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Free
+                    </a>
+                    <a href="#features" class="btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-preview">
+                    <div class="app-window">
+                        <div class="app-header">
+                            <div class="app-title">Gupth - Password Manager</div>
+                            <div class="app-controls">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="app-content">
+                            <div class="search-bar">
+                                <i class="fas fa-search"></i>
+                                <input type="text" placeholder="Search your password vault..." readonly>
+                            </div>
+                            <div class="password-cards">
+                                <div class="password-card">
+                                    <div class="card-icon">
+                                        <span>G</span>
+                                        <div class="status-dot"></div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>Github</h4>
+                                        <p>Sep 27, 2025</p>
+                                        <div class="password-field">
+                                            <span>••••••••</span>
+                                            <i class="fas fa-eye"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-actions">
+                                        <i class="fas fa-copy"></i>
+                                        <i class="fas fa-edit"></i>
+                                        <i class="fas fa-trash"></i>
+                                    </div>
+                                </div>
+                                <div class="password-card">
+                                    <div class="card-icon">
+                                        <span>N</span>
+                                        <div class="status-dot"></div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h4>nmqvsxmhs</h4>
+                                        <p>Sep 27, 2025</p>
+                                        <div class="password-field">
+                                            <span>••••••••</span>
+                                            <i class="fas fa-eye"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-actions">
+                                        <i class="fas fa-copy"></i>
+                                        <i class="fas fa-edit"></i>
+                                        <i class="fas fa-trash"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Gupth?</h2>
+                <p>Complete privacy and security for your passwords</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Military-Grade Security</h3>
+                    <p>AES encryption ensures your passwords are protected with the same security standards used by banks and governments.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <h3>100% Offline</h3>
+                    <p>No internet required. Your passwords never leave your computer, ensuring complete privacy and security.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>No Accounts Needed</h3>
+                    <p>Just install and use. No registration, no email required, no data collection. Complete anonymity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Smart Search</h3>
+                    <p>Instantly find passwords by service name, username, email, or notes. Lightning-fast local search.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>One-Click Copy</h3>
+                    <p>Copy passwords to clipboard with a single click. No more typing complex passwords manually.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Import/Export</h3>
+                    <p>Backup and restore your passwords. Import from other password managers or export to multiple formats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple, secure, and straightforward</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download & Install</h3>
+                        <p>Download Gupth and install it on your Windows computer. No registration required.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Add Your Passwords</h3>
+                        <p>Click "Add Password" and enter your service name and password. All data stays on your device.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Search & Use</h3>
+                        <p>Use the search bar to find passwords instantly. Copy to clipboard with one click.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Stay Secure</h3>
+                        <p>Your passwords are encrypted and stored locally. No cloud, no internet, complete privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-info">
+                    <h2>Ready to Secure Your Passwords?</h2>
+                    <p>Download Gupth now and take control of your password security. It's free, secure, and completely private.</p>
+                    <div class="download-features">
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Free to download and use</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Works on Windows 10/11</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>No installation restrictions</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Complete source code included</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-box">
+                    <div class="download-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Download Gupth</h3>
+                    <p>Version 1.0.0 • Windows 10/11</p>
+                    <div class="file-info">
+                        <span class="file-size">~15 MB</span>
+                        <span class="file-format">ZIP Archive</span>
+                    </div>
+                    <a href="gupth-win32-x64.zip" class="btn-download" id="downloadBtn" download="gupth-win32-x64.zip">
+                        <i class="fas fa-download"></i>
+                        Download Now
+                    </a>
+                    <p class="download-note">Click to download the ZIP file containing the Gupth application</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Gupth</h2>
+                    <p>
+                        Gupth was created with one simple principle: your passwords should be completely under your control. 
+                        In a world where data breaches are common and privacy is increasingly rare, Gupth provides a 
+                        secure, local solution for password management.
+                    </p>
+                    <p>
+                        Unlike cloud-based password managers, Gupth stores all your data locally on your computer. 
+                        This means no internet connection is required, no data is sent to external servers, and you 
+                        have complete control over your sensitive information.
+                    </p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <h3>100%</h3>
+                            <p>Local Storage</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>0</h3>
+                            <p>Data Collection</p>
+                        </div>
+                        <div class="about-stat">
+                            <h3>AES</h3>
+                            <p>Encryption</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="privacy-badge">
+                        <i class="fas fa-lock"></i>
+                        <h4>Privacy First</h4>
+                        <p>Your data never leaves your device</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="Gupth Logo" class="footer-logo-img">
+                        <span>Gupth</span>
+                    </div>
+                    <p>Secure, local password management for everyone.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#download">Download</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">License</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gupth. All rights reserved. Made with ❤️ for privacy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

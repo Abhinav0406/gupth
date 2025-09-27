@@ -1,0 +1,36 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradientLarge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Shield Background -->
+  <path d="M40 4L64 16V40C64 57 40 76 40 76S16 57 16 40V16L40 4Z" fill="url(#shieldGradientLarge)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <!-- Shield Inner Design -->
+  <path d="M40 12L56 20V40C56 52 40 68 40 68S24 52 24 40V20L40 12Z" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Lock Icon -->
+  <rect x="32" y="36" width="16" height="12" rx="2" fill="white"/>
+  <path d="M36 36V28C36 25 38.5 22.5 41 22.5S46 25 46 28V36" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Keyhole -->
+  <circle cx="40" cy="42" r="3" fill="url(#shieldGradientLarge)"/>
+  <rect x="38" y="42" width="4" height="4" fill="url(#shieldGradientLarge)"/>
+  
+  <!-- Status Dot -->
+  <circle cx="64" cy="16" r="6" fill="#10b981"/>
+  <circle cx="64" cy="16" r="3" fill="white"/>
+  
+  <!-- Glow Effect -->
+  <path d="M40 4L64 16V40C64 57 40 76 40 76S16 57 16 40V16L40 4Z" fill="none" stroke="url(#shieldGradientLarge)" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+</svg>

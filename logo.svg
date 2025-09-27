@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield Background -->
+  <path d="M20 2L32 8V20C32 28.5 20 38 20 38S8 28.5 8 20V8L20 2Z" fill="url(#shieldGradient)" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+  
+  <!-- Shield Inner Design -->
+  <path d="M20 6L28 10V20C28 26 20 34 20 34S12 26 12 20V10L20 6Z" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Lock Icon -->
+  <rect x="16" y="18" width="8" height="6" rx="1" fill="white"/>
+  <path d="M18 18V14C18 12.5 19.5 11 21 11S24 12.5 24 14V18" stroke="white" stroke-width="1.5" fill="none"/>
+  
+  <!-- Keyhole -->
+  <circle cx="20" cy="21" r="1.5" fill="url(#shieldGradient)"/>
+  <rect x="19" y="21" width="2" height="2" fill="url(#shieldGradient)"/>
+  
+  <!-- Status Dot -->
+  <circle cx="32" cy="8" r="3" fill="#10b981"/>
+  <circle cx="32" cy="8" r="1.5" fill="white"/>
+</svg>

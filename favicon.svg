@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield Background -->
+  <path d="M16 2L26 6V16C26 23 16 30 16 30S6 23 6 16V6L16 2Z" fill="url(#faviconGradient)"/>
+  
+  <!-- Lock Icon -->
+  <rect x="13" y="14" width="6" height="5" rx="1" fill="white"/>
+  <path d="M14.5 14V11C14.5 10 15.5 9 16.5 9S18.5 10 18.5 11V14" stroke="white" stroke-width="1" fill="none"/>
+  
+  <!-- Keyhole -->
+  <circle cx="16" cy="16.5" r="1" fill="url(#faviconGradient)"/>
+  <rect x="15.5" y="16.5" width="1" height="1.5" fill="url(#faviconGradient)"/>
+  
+  <!-- Status Dot -->
+  <circle cx="26" cy="6" r="2" fill="#10b981"/>
+</svg>
