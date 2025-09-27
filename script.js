@@ -220,7 +220,7 @@ downloadBtn.addEventListener('click', (e) => {
     // Simulate download preparation
     setTimeout(() => {
         const link = document.createElement('a');
-        link.href = 'YOUR_GOOGLE_DRIVE_LINK_HERE';
+        link.href = 'https://drive.google.com/uc?export=download&id=1r6q-7JNtLbZiCBP7l6m7vWRQa5jtkK30';
         link.download = 'gupth-win32-x64.zip';
         document.body.appendChild(link);
         link.click();
